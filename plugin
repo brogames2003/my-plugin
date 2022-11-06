@@ -1,0 +1,31 @@
+local Plugin = {
+    ["PluginName"] = "brogames2003",
+    ["PluginDescription"] = "brogames2003 made this for iizakariyaii l0l luv you",
+    ["Commands"] = {
+        ["gun"] = {
+           ["ListName"] = "gun",
+           ["Description"] = "gravity gun",
+           ["Aliases"] = {'gun'},
+           ["Function"] = function(args, speaker)
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/gravity%20gun'))()
+           end
+        },
+        ["spy"] = {
+           ["ListName"] = "spy",
+           ["Description"] = "spy",
+           ["Aliases"] = {'spy'},
+           ["Function"] = function(args, speaker)
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/chat-spy/main/chat%20spy'))()
+           end
+        },
+        ["spiderman"] = {
+           ["ListName"] = "spiderman",
+           ["Description"] = "walk on walls",
+           ["Aliases"] = {'spiderman'},
+           ["Function"] = function(args, speaker)
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/Walk_On_Walls_Script_FE%20(1).lua'))()
+           end
+        },
+            }
+ }
+return Plugin
